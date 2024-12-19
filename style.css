@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'pokemon';
+    src: url('Pokemon\ Hollow.ttf') format('truetype');
+}
+
+body {
+    background-color: gray;
+}
+section {
+    box-shadow: 1px 1px 3px black;
+    height: 100vh;   
+    background-color: #cc0202;     
+}
+
+#container_image {  /* div principal */
+    margin: auto;
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    background-image: url('img_fundo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 1px 1px 5px black;
+    border: 25px solid #bdbcbc;
+    border-bottom-left-radius: 35px;
+}
+#nome {
+    background-color: #3b3b3b;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+p {
+    color: white;
+    padding: 8px;
+}
+   
+header {
+    display: inline-flex;
+    border-bottom-right-radius: 50px;
+    width: 100%;
+    box-shadow: 0.5px 0.5px 4.5px black;
+}
+.icone_grande {
+    background-image: linear-gradient(to left, #0202ff, #5555d6 ) ;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;  
+    margin: 10px;   
+    border: 5px solid #bdbcbc;
+}
+.icone_pequeno1, .icone_pequeno2, .icone_pequeno3 {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border-style: none;
+    margin: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+.icone_pequeno2 {
+    background-color: yellow;
+}
+.icone_pequeno3 {
+    background-color: green;
+}
+
+.tituloh1 {
+    font-family: 'pokemon';
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.input-group {
+    margin: 20px auto;
+    max-width: 350px;
+}
+.form-control {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+div > button {
+    background-color: #0202ff;
+}
+
+aside {
+    align-content: center;
+}
