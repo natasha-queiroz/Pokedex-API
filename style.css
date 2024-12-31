@@ -6,12 +6,14 @@
 }
 
 body {
-    /* background-color: gray; */
+    background-color: #8f1313;
+    margin: 0px;
+    padding: 0px;
 }
 section {
-    box-shadow: 1px 1px 3px black;
+    /* box-shadow: 1px 1px 3px black; */
     height: 100vh;   
-    /* background-color: #cc0202;      */
+    
 }
 
 #container_image {  /* div principal */
