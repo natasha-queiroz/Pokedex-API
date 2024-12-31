@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const resposta = async (id) => {
         const result = await fetchApi(id)
-        if (result) {
+        if (result) 
+        {
             container_image.innerHTML = `<img src="${result.sprites.front_default}" alt="Pokemon">`
             nome.innerHTML = `<p>${result.name}</p>`
         }
@@ -21,7 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     botao_buscar.addEventListener("click", async () => {
         const id = campo.value
-        if (id) {
+        if (id) 
+        {
             await resposta(id)
         }
     })

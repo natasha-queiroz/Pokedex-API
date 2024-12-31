@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: gray;
+    /* background-color: gray; */
 }
 section {
     box-shadow: 1px 1px 3px black;
     height: 100vh;   
-    background-color: #cc0202;     
+    /* background-color: #cc0202;      */
 }
 
 #container_image {  /* div principal */
